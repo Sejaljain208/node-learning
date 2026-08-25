@@ -23,3 +23,4 @@ console.log(path.parse('/content/subfolder/test.txt'))
 
 // path.resolve() : Ye absolute path create karta hai.
 console.log(path.resolve('app.js'))
+console.log(path.resolve(__dirname,'Content','subfolder','text.txt'))
