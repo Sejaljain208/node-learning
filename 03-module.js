@@ -3,17 +3,17 @@
 // CommonJs - every file is a module (by default)
 // Modules - Encapsulated Code(only share minimum)
 
-const names = require("./4-names")
+const names = require("./04-names")
 console.log(names);
 
-const sayHi = require("./5-utils")
+const sayHi = require("./05-utils")
 sayHi('sasan')
 sayHi(names.john)
 sayHi(names.peter)
 
-const data = require("./6-alternate-flavour")
+const data = require("./06-alternate-flavour")
 console.log(data);
 
-require('./7-SUMfunction')
+require('./07-SUMfunction')
 
 
