@@ -12,4 +12,4 @@ const person ={
     city2 : "bhopal",
 }
 
-module.exports.doublePerson =person      //access in 3-module.js
+module.exports.doublePerson =person      //access in 03-module.js
